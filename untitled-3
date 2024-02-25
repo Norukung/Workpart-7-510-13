@@ -1,0 +1,12 @@
+weight = float(input("น้ำหนัก (Kg): "))
+height = float(input("ส่วนสูง (M): "))
+Tbmi = (weight / (height * 2))
+if Tbmi < 18.5 :
+    Trbmi = "Underweight"
+elif Tbmi < 25 :
+    Trbmi = "Normal weight"
+elif bmi < 30 :
+   Trbmi = "Overweight"
+else:
+    Trbmi = "Obesity"
+print("Bmi is: " , Trbmi)

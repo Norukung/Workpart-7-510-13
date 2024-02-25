@@ -1,0 +1,8 @@
+A_User =  "admin"
+A_Password = "Ad23n@23t"
+User = input("Username: ")
+APassword = input("Password")
+if User == A_User and APassword == A_Password:
+    print("Welcome Admin")
+else:
+        print("You are not admin")
